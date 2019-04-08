@@ -1,0 +1,10 @@
+language: julia
+notifications:
+  email: false
+julia:
+  - 0.4
+  - 0.5
+  - nightly
+#script: # use the default script which is equivalent to the following
+#  - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
+#  - julia -e 'Pkg.init(); Pkg.clone(pwd()); Pkg.test("ProgressiveAligner")'
